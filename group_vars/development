@@ -1,16 +1,15 @@
 mysql_root_password: devpw
 
 wordpress_sites:
-  - site_name: digimakers-wordpress-bedrock
+  - site_name: digimakers
     site_hosts:
       - digimakers.dev
       - 192.168.50.5
     user: vagrant
     group: www-data
     site_install: true
-    site_title: Example Site
+    site_title: Digimakers
     admin_user: admin
-    run_composer: false
     admin_password: admin
     admin_email: admin@example.dev
     system_cron: true
